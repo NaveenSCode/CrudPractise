@@ -1,0 +1,80 @@
+.header{
+    background: #3399ff;
+    height: 120px !important;
+    /* position: fixed; */
+    width:100%;
+    margin: -8px -8px 0px -8px;
+    padding:1px 1px 1px 1px;
+    overflow: hidden;
+}
+.adjustfromfixedheader{
+    margin-top:-3px;
+    position: absolute;
+    /* background: greenyellow; */
+   
+}
+.homecontainer{
+    display:flex;
+    flex-direction:row;
+    /* background: #e6e6e6; */
+    margin:0px;
+    /* margin-top:119px; */
+}
+.homecontent{
+    flex:4;
+}
+.sideslide{
+   /* background: #e6e6e6;     #e6e6e6   
+     display: flex;
+    flex-direction: column; 
+    height:100vh;
+    width:300px;
+    position: relative;
+    height: 100%;
+    padding:1px;
+    float:left;
+    margin-right:30px;
+    margin-bottom:30px; */
+    background: #e6e6e6;
+    flex:1;
+    margin-top: 5px;
+}
+.listdiv{
+    background:#e6e6e6;
+    /* flex: 1; */
+    margin-top:14px;
+    height: 400px;
+    padding:15px;
+}
+.list_icon_holder{
+    /*background:white;*/
+    height:50px;
+    width:50px;
+    margin-left: 12px;
+    margin-top:62px;
+    padding-left:0px;
+    padding-top:25px;
+}
+.list_elements{
+    /* background: black; */
+    border: 1px;
+    color: black;
+}
+
+.list{
+    margin:0 0 2em 0;
+    list-style-type: none;
+    padding:0px;
+    text-align: center;
+
+}
+.list div{
+    /* background-color: #fff; */
+    cursor: pointer;
+    height: 40px;
+    padding : 35px 2px 2px 2px; 
+}
+
+.list div:hover{
+    color: #3399ff;
+}

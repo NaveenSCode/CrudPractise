@@ -1,0 +1,36 @@
+<div class="header">
+    <div class="list_icon_holder">
+        <a href="#" (click)="onClickOfList()">
+            <span style="font-size: 25px;color: #e6e6e6;" class="glyphicon glyphicon-th-list"></span>
+          </a>
+    </div>
+</div>  
+
+
+
+<div>
+    <div class="adjustfromfixedheader">
+        <div *ngIf="selected" class="homecontainer">
+            <div class="sideslide">  
+                <ul class="list">
+                    <div>View Records</div>
+                    <div>Add Records</div>
+                    <div>Edit Records</div>
+                </ul>  
+            </div>
+            <div class="homecontent">
+                <app-home></app-home>
+            </div>
+        </div>
+        <div *ngIf="!selected" class="homecontainer">
+            <div>
+                <app-home></app-home>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--
+commited
+-->
